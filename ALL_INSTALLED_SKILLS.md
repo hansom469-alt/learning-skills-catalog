@@ -1,8 +1,8 @@
 # 已安装 Skills 完整清单
 
-盘点日期：2026-10-27。共 1037 项；此清单记录 Skill 名称和安装来源，不复制第三方 Skill 内容。
+盘点日期：2026-10-27。已安装 999 项（共享 991、Codex 全局 3、Codex 系统 5）；另列出 43 项插件缓存。此清单记录 Skill 名称和位置类别，不复制第三方 Skill 内容。
 
-> 插件 Skills 随插件版本更新，实际可用性以 Codex 当前会话显示为准。
+> 插件缓存目录中的 Skill 不一定已启用；实际可用性以 Codex 当前会话显示为准。
 
 ## 共享 Skills（991）
 
@@ -1092,7 +1092,15 @@
 
 - `the-learning-skill`
 
-## 插件 Skills（43）
+## Codex 系统 Skills（5）
+
+- `imagegen`
+- `openai-docs`
+- `review-agent`
+- `skill-creator`
+- `skill-installer`
+
+## 插件缓存 Skills（43）
 
 ### A
 
