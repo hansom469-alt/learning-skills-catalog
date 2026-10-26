@@ -1,26 +1,16 @@
-# 学习网站与学习方法 Skills
+# 热门 Agent Skills 分类目录
 
-按用途整理的公开 Agent Skills 清单。链接指向原项目；使用前请阅读对应的 `SKILL.md`、许可证和依赖说明。
+**[查看 16 类热门 Skill 清单](SKILLS_BY_CATEGORY.md)**：按用途精选 56 个 Skill，列出中文说明、原项目和可点击核对的安装热度。数据整理于 2026-10-27，来自 [skills.sh 安装榜](https://www.skills.sh/)；细分领域按类别内的相对热度选取。安装量不等于独立用户数，也不代表质量或安全保证。
 
-**[查看已核实来源的 209 个已安装 Skills 分类表](SKILLS_BY_CATEGORY.md)**。按 12 个主题分类，每项提供中文用途和项目来源。无可核实来源的条目已从分类表移除。下方保留与学习网站最相关的 7 个。
+## 学习网站开发优先看
 
-## 网站开发
+| 用途 | Skill | 来源 | 安装热度（约） |
+| --- | --- | --- | ---: |
+| 设计网站界面 | `frontend-design` | [Anthropic](https://github.com/anthropics/skills) | [1.0M](https://www.skills.sh/anthropics/skills/frontend-design) |
+| 优化 React 性能 | `vercel-react-best-practices` | [Vercel](https://github.com/vercel-labs/agent-skills) | [841K](https://www.skills.sh/vercel-labs/agent-skills/vercel-react-best-practices) |
+| 检查网页体验 | `web-design-guidelines` | [Vercel](https://github.com/vercel-labs/agent-skills) | [787K](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines) |
+| 浏览器功能测试 | `webapp-testing` | [Anthropic](https://github.com/anthropics/skills) | [189K](https://www.skills.sh/anthropics/skills/webapp-testing) |
+| 持续授课与复习 | `teach` | [Matt Pocock](https://github.com/mattpocock/skills) | [872K](https://www.skills.sh/mattpocock/skills/teach) |
+| 资料研究与总结 | `research` | [Matt Pocock](https://github.com/mattpocock/skills) | [720K](https://www.skills.sh/mattpocock/skills/research) |
 
-| 分类 | Skill | 用途 | 来源 |
-| --- | --- | --- | --- |
-| 界面设计 | frontend-design | 设计课程页、学习面板等前端界面 | [Anthropic](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
-| 体验检查 | web-design-guidelines | 检查交互、布局和无障碍问题 | [Vercel](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines) |
-| React 开发 | react-best-practices | 优化 React／Next.js 网站的性能与代码 | [Vercel](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) |
-| 功能测试 | webapp-testing | 用浏览器验证网站功能与界面行为 | [Anthropic](https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md) |
-
-## 学习方法与内容
-
-| 分类 | Skill | 用途 | 来源 |
-| --- | --- | --- | --- |
-| 课程制作 | anything-to-course | 把现有资料转成自学课程、练习和复习计划 | [lowwwbank](https://github.com/lowwwbank/anything-to-course) |
-| 互动辅导 | study-skill | 对话教学、练习与间隔复习 | [mordor-forge](https://github.com/mordor-forge/study-skill) |
-| 学习资料 | the-learning-skill | 生成笔记、闪卡、测验与复习日程 | [toddward](https://github.com/toddward/the-learning-skill) |
-
-## 用在当前学习站
-
-当前站点在 `sites/htawbi-learning/`，是无需构建的静态网站。优先使用 `frontend-design` 和 `webapp-testing`；`react-best-practices` 仅在站点采用 React／Next.js 时使用。制作新学科的学习内容时，可参考 `anything-to-course`、`study-skill` 和 `the-learning-skill`。
+清单仅用于发现和比较。使用 Skill 前，请核对原项目的 `SKILL.md`、依赖和适用范围。
